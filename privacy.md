@@ -30,7 +30,7 @@ Lineament is for adults 18 or older. Face analysis starts only after you agree t
 | Facial landmarks and the measurements calculated from them (distances, ratios and angles) | The app's database on the iPhone | Used to produce your ratings, the facial atlas and comparisons between your own scans |
 | Ratings, confidence levels and versions | The app's database on the iPhone | |
 | Scan details: the iPhone model identifier (for example "iPhone17,1"), camera lens, exposure, ISO, focal length, orientation, which segmentation masks the camera provided, and whether the photo came from the camera or was imported | The app's database on the iPhone | Used to check whether two scans can be compared. No location and no device identifiers |
-| Your profile, goals, routine plan, tasks and check-ins, including the weekly answers about how your skin, sleep and energy felt | The app's database on the iPhone | See "Health-related answers" below |
+| Your profile, goals, setup answers, routine plan, tasks and check-ins, including the weekly answers about how your skin, sleep and energy felt | The app's database and protected storage on the iPhone | See "Health-related answers" below |
 | Subscription status (which plan, its state, expiry and when it was last checked with the App Store) | The app's database on the iPhone | Lets Lineament Pro keep working when you're offline |
 | Usage events: a fixed list such as "onboarding started", "score revealed" or "task completed", with fixed choices such as which goal or which plan type | The app's database on the iPhone, for 90 days | Never sent anywhere and not included in exports. Each event carries a random ID the app creates on this iPhone (not a device or advertising identifier), which is replaced when you delete all data. Never includes photos, measurements, scores, free text, your age, health data or purchase transaction IDs |
 | Preferences, such as appearance and reminder times | Standard iOS app settings on the iPhone | iOS may include these settings in your device backup |
@@ -72,7 +72,7 @@ Where the EU or UK data protection laws apply, facial analysis relies on your ex
 The weekly check-in asks how your skin felt, how you slept and how your energy was, each on a scale of 1 to 5. Some laws, such as Washington's My Health My Data Act and Nevada's consumer health data law, treat answers like these as consumer health data. In Lineament:
 
 - They're used only to show your own answers next to your trend. They never change your score.
-- They stay in the app's database on your iPhone. We don't collect or receive them, and we don't sell or share them with anyone.
+- They stay in the app's protected storage on your iPhone, excluded from backups. We don't collect or receive them, and we don't sell or share them with anyone.
 - They're included in an export only if you create one, and they're deleted with Delete all data or when you delete the app.
 
 Lineament never infers health, mood or tiredness from your face.
@@ -119,7 +119,7 @@ Lineament processes your data on your iPhone, wherever you are. We don't transfe
 
 ## Security
 
-Photos and thumbnails use iOS Data Protection's strongest class, so they can't be read while the iPhone is locked. The database is protected the same way, except that it can finish writing if the iPhone locks mid-save. Notifications never show scores or analysis on the Lock Screen, and the app covers its screen in the App Switcher. No method of storage is perfectly secure, so keep your iPhone protected with a passcode.
+Photos and thumbnails use iOS Data Protection's strongest class, so they can't be read while the iPhone is locked. The database is protected the same way, except that it can finish writing if the iPhone locks mid-save. Notifications never show scores or analysis on the Lock Screen, widgets show only task titles and your streak, and the app covers its screen in the App Switcher. No method of storage is perfectly secure, so keep your iPhone protected with a passcode.
 
 ## Children
 
