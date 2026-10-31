@@ -10,7 +10,7 @@ If you're in crisis or thinking about harming yourself, call your local emergenc
 
 ## Scans
 
-**The scan won't capture.** Face a soft, even light (a window in front of you works well), hold the iPhone at eye level about an arm's length away, keep your face centered and level, and keep a neutral expression. The guide tells you which one thing to adjust.
+**The scan won't capture.** Face a soft, even light (a window in front of you works well), hold the iPhone at eye level, close enough that your face fills the outline, keep your face centered and level, and keep a neutral expression. The guide tells you which one thing to adjust.
 
 **A category says "Not enough signal".** Lineament doesn't guess. Hair and grooming need a hair mask that only some front cameras provide, and never for imported photos. Skin is skipped in very uneven or tinted light, or when a smoothing filter seems to be on.
 
