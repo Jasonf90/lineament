@@ -2,6 +2,5 @@
 # repository, with privacy-policy.md renamed to privacy.md so the page is served at /privacy.
 title: Lineament
 description: Privacy Policy, Terms of Use, Support and rating methodology for Lineament for iPhone.
-theme: jekyll-theme-primer
 exclude:
   - README.md
